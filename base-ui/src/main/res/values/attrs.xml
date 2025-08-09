@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BatteryView">
+
+        <!-- 电池边方向-->
+        <attr name="batteryOrientation">
+            <enum name="horizontal_left" value="0" />
+            <enum name="horizontal_right" value="1" />
+            <enum name="vertical_top" value="2" />
+            <enum name="vertical_bottom" value="3" />
+        </attr>
+
+        <!-- 电池外边框 -->
+        <!-- 电池边框与内部电量的间隔 -->
+        <attr name="batteryBorderPadding" format="dimension|reference" />
+        <!-- 电池边框宽度 -->
+        <attr name="batteryBorderWidth" format="dimension|reference" />
+        <!-- 电池边框圆角 -->
+        <attr name="batteryBorderRadius" format="dimension|reference" />
+        <!-- 电池边框颜色 -->
+        <attr name="batteryBorderColor" format="color|reference" />
+
+        <!-- 电池实心电量 -->
+        <!-- 电池电量及对应的颜色 -->
+        <attr name="batteryLowPowerColor" format="color|reference" />
+        <attr name="batteryLowPowerThreshold" format="integer" />
+        <attr name="batteryMediumPowerColor" format="color|reference" />
+        <attr name="batteryMediumPowerThreshold" format="integer" />
+        <attr name="batteryHighPowerColor" format="color|reference" />
+        <attr name="batteryChargingPowerColor" format="color|reference" />
+        <attr name="batteryPower" format="integer" />
+
+        <!-- 充电动画速度 1-9 -->
+        <attr name="batteryChargingSpeed" format="integer" />
+
+        <!-- 电池头 -->
+        <attr name="batteryHeaderWidth" format="dimension|reference" />
+        <attr name="batteryHeaderColor" format="color|reference" />
+    </declare-styleable>
+</resources>

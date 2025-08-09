@@ -5,10 +5,11 @@ plugins {
 
 android {
     namespace = "com.fphoenixcorneae.baseui"
-    compileSdk = 34
+    compileSdk = libs.versions.compileSdk.get().toInt()
+    buildToolsVersion = libs.versions.buildToolsVersion.get()
 
     defaultConfig {
-        minSdk = 24
+        minSdk = libs.versions.minSdk.get().toInt()
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
@@ -24,16 +25,15 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.valueOf(libs.versions.javaVersion.get())
+        targetCompatibility = JavaVersion.valueOf(libs.versions.javaVersion.get())
     }
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = libs.versions.kotlinJvmVersion.get()
     }
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
