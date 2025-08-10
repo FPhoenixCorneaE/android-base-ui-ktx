@@ -7,7 +7,7 @@ import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatEditText
 
 /**
- * @desc：EmojiDisableEditText
+ * @desc：禁止输入表情符与特殊符号
  * @date：2022/07/14 14:30
  */
 class EmojiDisableEditText @JvmOverloads constructor(

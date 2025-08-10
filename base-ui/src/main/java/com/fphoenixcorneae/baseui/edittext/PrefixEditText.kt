@@ -12,7 +12,7 @@ import androidx.annotation.ColorInt
 import androidx.appcompat.widget.AppCompatEditText
 
 /**
- * @desc：PrefixEditText
+ * @desc：添加前缀
  * @date：2022/07/13 17:51
  */
 class PrefixEditText @JvmOverloads constructor(

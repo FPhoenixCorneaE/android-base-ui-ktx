@@ -12,7 +12,7 @@ import androidx.annotation.ColorInt
 import androidx.appcompat.widget.AppCompatEditText
 
 /**
- * @desc：SuffixEditText
+ * @desc：添加后缀
  * @date：2022/07/13 17:14
  */
 class SuffixEditText @JvmOverloads constructor(

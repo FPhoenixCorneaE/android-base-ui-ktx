@@ -9,7 +9,7 @@ import android.view.inputmethod.InputConnectionWrapper
 import androidx.appcompat.widget.AppCompatEditText
 
 /**
- * @desc：RegexEditText
+ * @desc：输入内容根据正则是否拦截
  * @date：2022/07/18 11:40
  */
 class RegexEditText @JvmOverloads constructor(

@@ -9,7 +9,7 @@ import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatEditText
 
 /**
- * @desc：SeparatorEditText
+ * @desc：添加分隔符
  * @date：2022/07/22 15:36
  */
 class SeparatorEditText @JvmOverloads constructor(

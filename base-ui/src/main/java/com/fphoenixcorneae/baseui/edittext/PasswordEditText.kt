@@ -27,7 +27,7 @@ import com.fphoenixcorneae.widget.text.method.PasswordTransformationMethod
 import kotlin.math.roundToInt
 
 /**
- * @desc：PasswordEditText
+ * @desc：密码输入框, 可切换显示/隐藏状态, 可清除
  * @date：2022/07/18 15:57
  */
 class PasswordEditText @JvmOverloads constructor(
