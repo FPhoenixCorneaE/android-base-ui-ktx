@@ -23,6 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.fphoenixcorneae.baseui.demo.BatteryDemoActivity" />
+        <activity android:name="com.fphoenixcorneae.baseui.demo.EditTextDemoActivity" />
     </application>
 
 </manifest>

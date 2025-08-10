@@ -92,7 +92,7 @@ class BatteryView @JvmOverloads constructor(
 
     /** 充电中的闪电图片 */
     private val mChargingLightningBitmap by lazy {
-        ContextCompat.getDrawable(context, R.drawable.ic_charging_lightning)?.toBitmap()?.run {
+        ContextCompat.getDrawable(context, R.drawable.svg_ic_charging_lightning)?.toBitmap()?.run {
             val matrix = Matrix()
             if (mOrientation == BatteryOrientation.HORIZONTAL_LEFT || mOrientation == BatteryOrientation.HORIZONTAL_RIGHT) {
                 matrix.setRotate(90f, width / 2f, height / 2f)

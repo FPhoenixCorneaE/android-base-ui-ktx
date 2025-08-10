@@ -41,7 +41,7 @@ android {
 }
 
 dependencies {
-
+    implementation(projects.databindingAdapters)
     implementation(projects.baseUi)
 
     implementation(libs.androidx.core.ktx)

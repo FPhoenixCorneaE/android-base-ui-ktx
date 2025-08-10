@@ -16,6 +16,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven("https://jitpack.io")
     }
 }
 
@@ -25,3 +26,6 @@ enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 rootProject.name = "android-base-ui-ktx"
 include(":app")
 include(":base-ui")
+
+include(":databinding-adapters")
+project(":databinding-adapters").projectDir = File(rootProject.projectDir, "../databinding-adapters/adapters")
